@@ -6,6 +6,7 @@ const Cart = (props) => {
     const { products } = props;
 
     // const arr = [1,2,3,4,5]
+
     return (
         <div className="cart">
             {/* < CartItem qty={56} price={599} title={"shiv"} /> */}
@@ -19,14 +20,16 @@ const Cart = (props) => {
                         productzzz={prod}
                         key={prod.id} />
                 )
-            })}
+            })} 
 
 
             {/* { arr.map((item) => {
                 return item + 5;
                 })
             } */}
+            
         </div>
+
     );
 }
 
